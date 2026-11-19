@@ -32,3 +32,6 @@ Flask, SQLite, python-dotenv y pytest.
 
 ## Lecciones aprendidas
 
+- Las contraseñas se guardan siempre con hash, nunca en texto plano.
+- Las entradas obligatorias se validan en el servidor antes de guardar datos.
+- Las consultas de tareas filtran siempre por el usuario autenticado.
