@@ -1,7 +1,7 @@
 # Proyecto
 
-Reto 0 es una aplicación web Flask para registrar usuarios y gestionar tareas ficticias.
-Cada usuario debe poder consultar únicamente sus propias tareas.
+Reto 0 es TaskBloom, una aplicación web Flask para registrar usuarios y gestionar tareas ficticias.
+Cada usuario debe poder consultar y modificar únicamente sus propias tareas.
 
 ## Stack
 
@@ -16,7 +16,7 @@ Flask, SQLite, python-dotenv y pytest.
 
 ## Estructura
 
-- `app.py`: aplicación Flask, rutas y acceso a SQLite.
+- `app.py`: aplicación Flask, autenticación, rutas y acceso a SQLite.
 - `tests/`: pruebas automatizadas del reto.
 - `requirements.txt`: dependencias de ejecución.
 - `.env.example`: nombres de variables de entorno requeridas.

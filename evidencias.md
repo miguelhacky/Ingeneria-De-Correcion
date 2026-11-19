@@ -6,9 +6,9 @@ Repositorio local: `reto-0` en `TALLER7`.
 
 | N.º | Criterio | Descripción del fallo | Archivo y línea |
 |---:|---|---|---|
-| 1 | Validación de entradas | Se aceptan usuarios y títulos vacíos o excesivamente largos. | `app.py:52`, `app.py:77` |
-| 2 | Contraseñas y hash | La contraseña se guarda directamente en SQLite. | `app.py:56` |
-| 3 | Control de acceso | La lista de tareas consulta todas las tareas, sin filtrar por usuario. | `app.py:80` |
+| 1 | Validación de entradas | El registro y la creación de tareas aceptan campos vacíos o excesivamente largos. | `app.py:52`, `app.py:94` |
+| 2 | Contraseñas y hash | Las contraseñas se guardaban y comparaban en texto plano. | `app.py:61`, `app.py:82` |
+| 3 | Control de acceso | Actualizar o eliminar una tarea no validaba el propietario. | `app.py:111`, `app.py:122` |
 
 ## Evidencia 2 — Secretos
 
