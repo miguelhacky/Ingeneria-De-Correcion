@@ -1,8 +1,8 @@
-import sqlite3
 import os
+import sqlite3
 
-from flask import Flask, g, redirect, render_template_string, request, session, url_for
 from dotenv import load_dotenv
+from flask import Flask, g, redirect, render_template_string, request, session, url_for
 
 load_dotenv()
 app = Flask(__name__)
