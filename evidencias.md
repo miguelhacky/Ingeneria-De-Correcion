@@ -10,9 +10,11 @@ Repositorio local: `reto-0` en `TALLER7`.
 | 2 | Contraseñas y hash | Las contraseñas se guardaban y comparaban en texto plano. | `app.py:61`, `app.py:82` |
 | 3 | Control de acceso | Actualizar o eliminar una tarea no validaba el propietario. | `app.py:111`, `app.py:122` |
 
+Repositorio público requerido: registrar la URL pública de este repositorio en GitHub.
+
 ## Evidencia 2 — Secretos
 
-La revisión inicial debe ejecutarse con `git grep -n -i --untracked -E "secret|token|key *=|password *=" -- "*.py"`; la clave de desarrollo se elimina antes de publicar.
+La revisión inicial se ejecuta con `git grep -n -i --untracked -E "secret|token|key *=|password *=" -- "*.py"`. La aplicación carga `SECRET_KEY` desde el entorno y no contiene una clave real en el código.
 
 ## Evidencias 3–10
 
@@ -56,4 +58,3 @@ Los usuarios creados con contraseñas antiguas en texto plano necesitarían regi
 - Trabajar en `plataforma-ludica`: firmar `POLITICA_IA.md`, crear el tag `semana-1` y comprobar Actions.
 - Escribir la conclusión personal de 3–5 líneas sin asistencia de IA.
 - Exportar las evidencias con capturas como `FajardoMiguelSemana1Dia4.pdf` y subirlo al Drive del curso.
-

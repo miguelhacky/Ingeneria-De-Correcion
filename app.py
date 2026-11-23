@@ -17,7 +17,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("SECRET_KEY", "local-only-placeholder")
+app.secret_key = os.environ.get("SECRET_KEY")
 DATABASE = "tasks.db"
 
 PAGE = """
