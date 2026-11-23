@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Semana 1 - Día 4</title>
+  <style>
+    @page { size: letter; margin: 12mm; }
+    body { margin: 0; font-family: Arial, sans-serif; color: #111; }
+    .page { min-height: 245mm; box-sizing: border-box; page-break-after: always; padding: 8mm 12mm; }
+    .cover { display: flex; flex-direction: column; justify-content: space-between; text-align: center; }
+    .cover h1 { margin-top: 55mm; font-size: 32px; }
+    .cover h2 { margin: 8px; }
+    .cover .bottom { margin-bottom: 20mm; }
+    h2.section { text-align: center; text-transform: uppercase; font-size: 22px; margin: 8mm 0 10mm; }
+    h3 { font-size: 16px; margin: 8mm 0 3mm; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    th, td { border: 1px solid #777; padding: 7px; text-align: left; vertical-align: top; }
+    th { background: #eee; }
+    .placeholder {
+      height: 72mm; border: 2px dashed #777; display: flex; align-items: center;
+      justify-content: center; text-align: center; background: #f7f7f7; color: #555;
+      font-size: 14px;
+    }
+    .placeholder.small { height: 48mm; }
+    .caption { font-style: italic; text-align: center; color: #555; margin: 3mm 0 8mm; }
+    ul { line-height: 1.7; }
+  </style>
+</head>
+<body>
+
+<section class="page cover">
+  <h1>Taller 7: Ingeniería de Corrección</h1>
+  <div>
+    <h2>Miguel Angel Fajardo Zapata</h2>
+    <p>ADSO</p>
+    <p><strong>Repositorio:</strong><br>https://github.com/miguelhacky/Ingeneria-De-Correcion.git</p>
+  </div>
+  <div class="bottom">
+    <p>SERVICIO NACIONAL DE APRENDIZAJE (SENA)</p>
+    <p>22 noviembre 2026</p>
+  </div>
+</section>
+
+<section class="page">
+  <h2 class="section">1. Tabla inicial de fallos</h2>
+  <p>Registrar los repositorios públicos, el enunciado asignado y los tres fallos elegidos.</p>
+  <table>
+    <tr><th>N.º</th><th>Criterio</th><th>Descripción del fallo</th><th>Archivo y línea</th></tr>
+    <tr><td>1</td><td>Validación de entradas</td><td>Pegar descripción exacta</td><td>app.py y líneas</td></tr>
+    <tr><td>2</td><td>Contraseñas y hash</td><td>Pegar descripción exacta</td><td>app.py y líneas</td></tr>
+    <tr><td>3</td><td>Control de acceso</td><td>Pegar descripción exacta</td><td>app.py y líneas</td></tr>
+  </table>
+  <h3>Direcciones de GitHub</h3>
+  <p><strong>Reto 0:</strong> https://github.com/miguelhacky/Ingeneria-De-Correcion</p>
+  <p><strong>Plataforma ludica:</strong> ________________________________</p>
+  <p><strong>Número y nombre del reto 0:</strong> ________________________________</p>
+</section>
+
+<section class="page">
+  <h2 class="section">2. Limpieza de variables de entorno (.env)</h2>
+  <h3>Evidencia 2 para el PDF, parte 1 de 2</h3>
+  <div class="placeholder">PEGAR CAPTURA: búsqueda de secretos antes de la corrección</div>
+  <p class="caption">Evidencia 2 para el PDF, parte 1 de 2</p>
+  <h3>Parte 2 de 2</h3>
+  <div class="placeholder">PEGAR CAPTURA: búsqueda después de la corrección o línea indicando que no se encontraron claves</div>
+  <p class="caption">Evidencia 2 para el PDF, parte 2 de 2</p>
+</section>
+
+<section class="page">
+  <h2 class="section">3. Contexto del agente</h2>
+  <div class="placeholder">PEGAR CAPTURA COMPLETA DE AGENTS.md</div>
+  <p class="caption">Evidencia 3 para el PDF</p>
+  <p>Debe verse el usuario o la ruta del repositorio y las secciones Proyecto, Stack, Comandos, Estructura, Qué no hacer y Lecciones aprendidas.</p>
+</section>
+
+<section class="page">
+  <h2 class="section">4. Prueba de humo, Ruff y pre-commit</h2>
+  <h3>Parte 1 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: prueba de humo en verde</div>
+  <p class="caption">Evidencia 4 para el PDF, parte 1 de 3</p>
+  <h3>Parte 2 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: ruff check . mostrando All checks passed!</div>
+  <p class="caption">Evidencia 4 para el PDF, parte 2 de 3</p>
+  <h3>Parte 3 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: commit con Ruff y Pruebas en Passed</div>
+  <p class="caption">Evidencia 4 para el PDF, parte 3 de 3</p>
+</section>
+
+<section class="page">
+  <h2 class="section">5. Corrección del fallo 1</h2>
+  <h3>Parte 1 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: prueba en rojo y motivo del fallo visible</div>
+  <p class="caption">Evidencia 5 para el PDF, parte 1 de 3</p>
+  <h3>Parte 2 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: plan aprobado y diff sin modificación de pruebas</div>
+  <p class="caption">Evidencia 5 para el PDF, parte 2 de 3</p>
+  <h3>Parte 3 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: pruebas en verde y commit con el hook en Passed</div>
+  <p class="caption">Evidencia 5 para el PDF, parte 3 de 3</p>
+</section>
+
+<section class="page">
+  <h2 class="section">6. Corrección del fallo 2</h2>
+  <h3>Parte 1 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: prueba en rojo y motivo del fallo visible</div>
+  <p class="caption">Evidencia 6 para el PDF, parte 1 de 3</p>
+  <h3>Parte 2 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: plan aprobado y diff sin modificación de pruebas</div>
+  <p class="caption">Evidencia 6 para el PDF, parte 2 de 3</p>
+  <h3>Parte 3 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: pruebas en verde y commit con el hook en Passed</div>
+  <p class="caption">Evidencia 6 para el PDF, parte 3 de 3</p>
+</section>
+
+<section class="page">
+  <h2 class="section">7. Corrección del fallo 3</h2>
+  <h3>Parte 1 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: prueba en rojo y motivo del fallo visible</div>
+  <p class="caption">Evidencia 7 para el PDF, parte 1 de 3</p>
+  <h3>Parte 2 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: plan aprobado y diff sin modificación de pruebas</div>
+  <p class="caption">Evidencia 7 para el PDF, parte 2 de 3</p>
+  <h3>Parte 3 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: pruebas en verde y commit con el hook en Passed</div>
+  <p class="caption">Evidencia 7 para el PDF, parte 3 de 3</p>
+</section>
+
+<section class="page">
+  <h2 class="section">8. Pull request e integración</h2>
+  <div class="placeholder" style="height: 170mm">PEGAR CAPTURA DEL PULL REQUEST CON LAS TRES PREGUNTAS Y EL ESTADO MERGED</div>
+  <p class="caption">Evidencia 8 para el PDF</p>
+</section>
+
+<section class="page">
+  <h2 class="section">9. Auditoría y lecciones</h2>
+  <table>
+    <tr><th>Criterio</th><th>Resultado taller 1</th><th>Resultado hoy</th><th>Cómo se comprobó</th></tr>
+    <tr><td>Ejecución</td><td></td><td>Cumple</td><td></td></tr>
+    <tr><td>Validación de entradas</td><td></td><td>Cumple</td><td></td></tr>
+    <tr><td>Contraseñas y hash</td><td></td><td>Cumple</td><td></td></tr>
+    <tr><td>Secretos y claves</td><td></td><td>Cumple</td><td></td></tr>
+    <tr><td>Control de acceso</td><td></td><td>Cumple</td><td></td></tr>
+    <tr><td>Dependencias y alucinación</td><td></td><td>Cumple</td><td></td></tr>
+    <tr><td>Pruebas</td><td></td><td>Cumple</td><td></td></tr>
+    <tr><td>Manejo de errores</td><td></td><td>Cumple</td><td></td></tr>
+    <tr><td>Estructura</td><td></td><td>Cumple parcialmente</td><td></td></tr>
+  </table>
+  <h3>Conclusión personal de 3 a 5 líneas</h3>
+  <p>Escribir sin IA: explicar el fallo más grave, la diferencia entre vibe coding y pair programming, y qué regla habría evitado los fallos.</p>
+  <h3>Lecciones aprendidas en GitHub</h3>
+  <div class="placeholder small">PEGAR CAPTURA DE LECCIONES/APARTADO EN GITHUB</div>
+  <p class="caption">Evidencia 9 para el PDF</p>
+</section>
+
+<section class="page">
+  <h2 class="section">10. Cierre de semana 1</h2>
+  <h3>Parte 1 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: POLITICA_IA.md firmada en GitHub</div>
+  <p class="caption">Evidencia 10 para el PDF, parte 1 de 3</p>
+  <h3>Parte 2 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: etiqueta semana-1 en GitHub</div>
+  <p class="caption">Evidencia 10 para el PDF, parte 2 de 3</p>
+  <h3>Parte 3 de 3</h3>
+  <div class="placeholder small">PEGAR CAPTURA: última ejecución de Actions en verde</div>
+  <p class="caption">Evidencia 10 para el PDF, parte 3 de 3</p>
+</section>
+
+</body>
+</html>
