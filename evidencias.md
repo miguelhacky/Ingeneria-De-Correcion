@@ -20,6 +20,8 @@ La revisión inicial se ejecuta con `git grep -n -i --untracked -E "secret|token
 
 Se completan con capturas de AGENTS.md, pruebas, Ruff, commits, PR, auditoría, firma, tag y Actions cuando estén disponibles.
 
+El cierre de la semana 1 se registra en `POLITICA_IA.md` y en la etiqueta `semana-1`.
+
 ## Auditoría final — Evidencia 9
 
 | Criterio | Resultado hoy | Cómo se comprobó |
